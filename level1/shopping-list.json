@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Хліб",
+    "quantity": 1
+  },
+  {
+    "name": "Молоко",
+    "quantity": 2
+  },
+  {
+    "name": "Яйця",
+    "quantity": 101
+  },
+  {
+    "name": "Сир",
+    "quantity": 1
+  },
+  {
+    "name": "Яблука",
+    "quantity": 5
+  }
+]

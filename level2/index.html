@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Фільтр JSON</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="json-filter">
+    <h1 class="json-filter__title">Фільтр JSON</h1>
+
+    <label class="json-filter__label" for="filterInput">
+      Введіть категорію товару:
+    </label>
+
+    <input class="json-filter__input" type="text" id="filterInput" placeholder="Наприклад: фрукти">
+
+    <div class="json-filter__actions">
+      <button class="json-filter__button" id="filterButton">
+        Фільтрувати
+      </button>
+
+      <button class="json-filter__button json-filter__button--secondary" id="showAllButton">
+        Показати всі
+      </button>
+    </div>
+
+    <h2 class="json-filter__subtitle">Результат:</h2>
+
+    <pre class="json-filter__result" id="result"></pre>
+
+    <p class="json-filter__error" id="error"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

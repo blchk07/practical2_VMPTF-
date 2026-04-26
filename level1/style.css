@@ -1,0 +1,34 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #eaeaea;
+  margin: 0;
+}
+
+.shopping {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.shopping__title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.shopping__list {
+  padding-left: 20px;
+}
+
+.shopping__item {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.shopping__error {
+  color: #b00020;
+  margin-top: 10px;
+}

@@ -1,0 +1,85 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+  background-color: #eaeaea;
+}
+
+.tasks {
+  max-width: 800px;
+  margin: 35px auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.tasks__title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tasks__controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tasks__control {
+  flex: 1;
+}
+
+.tasks__label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tasks__input,
+.tasks__select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+
+.tasks__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tasks__item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+.tasks__item-title {
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.tasks__item-text {
+  margin: 0 0 8px;
+}
+
+.tasks__status {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 1px solid #999;
+  font-size: 14px;
+}
+
+.tasks__status--completed {
+  background-color: #d9f2d9;
+}
+
+.tasks__status--active {
+  background-color: #f5dddd;
+}
+
+.tasks__empty {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
